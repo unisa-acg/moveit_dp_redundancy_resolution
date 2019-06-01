@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>fourr_kazerounian_description</name>
-  <version>0.0.1</version>
+  <version>0.1.0</version>
   <description>The fourr_kazerounian_description package</description>
 
   <maintainer email="eferrentino@todo.todo">eferrentino</maintainer>
