@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<objective_function criterion="minimize">
+    <performance_index type="square_norm_velocities" weight="0.1" />
+    <performance_index type="frame_obstacle_distance" weight="0.9">
+        <frame>link3</frame>
+        <obstacle>
+            <x>6.0</x>
+            <y>4.0</y>  
+            <z>0.3</z>  
+        </obstacle>
+    </performance_index>
+</objective_function>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>fourr_kazerounian_description</name>
+  <version>0.0.1</version>
+  <description>The fourr_kazerounian_description package</description>
+
+  <maintainer email="eferrentino@todo.todo">eferrentino</maintainer>
+
+  <license>BSD</license>
+
+  <author email="eferrentino@unisa.it">Enrico Ferrentino</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>

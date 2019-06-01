@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: fourr_kazerounian_description
+    relative_path: robots/fourr_planar.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/fourr_planar.srdf
+  CONFIG:
+    author_name: eferre
+    author_email: eferrentino@unisa.it
+    generated_timestamp: 1533049406

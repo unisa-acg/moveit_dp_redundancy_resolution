@@ -1,0 +1,20 @@
+<launch>
+  <!-- The moveit_dp_redundancy_resolution module needs an output directory where to generate results (colormaps, grids, etc.) -->
+  <arg name="output_path" default="$(find panda_moveit_config)"/>
+
+  <!-- File path to the definition of the objective function -->
+  <arg name="objective_function" default="$(find panda_moveit_config)/config/objective_function.xml"/>
+
+  <!-- Namespace name for the parameters of this launch file and loaded yaml files -->
+  <arg name="namespace" default="dp_redundancy_solver_config"/>
+
+  <!-- Load the parameters defined here -->
+  <group ns="move_group">
+    <group ns="$(arg namespace)">
+      <param name="output_path" value="$(arg output_path)"/>
+      <param name="objective_function" value="$(arg objective_function)"/>
+      <rosparam command="load" file="$(find panda_moveit_config)/config/dp_redundancy_solver.yaml"/>
+    </group>
+  </group>
+
+</launch>

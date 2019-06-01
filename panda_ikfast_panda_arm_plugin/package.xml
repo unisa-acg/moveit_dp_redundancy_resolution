@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package format="2">
+  <name>panda_ikfast_panda_arm_plugin</name>
+  <version>0.0.1</version>
+  <description>The panda_ikfast_panda_arm_plugin package</description>
+  
+  <maintainer email="eferrentino@unisa.it">Enrico Ferrentino</maintainer>
+  
+  <license>BSD</license>
+
+  <author email="eferrentino@unisa.it">Enrico Ferrentino</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>liblapack-dev</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <exec_depend>moveit_core</exec_depend>
+  <exec_depend>liblapack-dev</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>tf_conversions</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+
+  <export>
+    <moveit_core plugin="${prefix}/panda_panda_arm_moveit_ikfast_plugin_description.xml"/>
+  </export>
+</package>

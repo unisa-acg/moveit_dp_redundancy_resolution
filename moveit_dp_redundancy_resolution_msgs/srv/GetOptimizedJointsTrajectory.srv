@@ -1,0 +1,35 @@
+# Define the frame for the specified trajectory (optional)
+# This is not currently used by the moveit_dp_redundancy_resolution package
+Header header
+
+# Mandatory name of group to compute the path for
+string planning_group_name
+
+# Group of non-redundant joints, obtained from the planning group by removing the redundant joint
+string non_redundant_group_name
+
+# The workspace trajectory
+WorkspaceTrajectory ws_trajectory
+
+# Redundancy parameters
+string[] redundancy_parameters
+
+# The number of samples for the redundancy parameter(s)
+uint64 redundancy_parameter_samples
+
+# The initial joint-space state (optional)
+moveit_msgs/RobotState init_state
+
+# The final joint-space state (optional)
+moveit_msgs/RobotState final_state
+
+# Specify additional constraints to be met by the Cartesian path
+moveit_msgs/Constraints constraints
+
+---
+
+# The computed solution trajectory, for the desired group, in configuration space
+moveit_msgs/RobotTrajectory solution
+
+# The error code of the computation
+moveit_msgs/MoveItErrorCodes error_code

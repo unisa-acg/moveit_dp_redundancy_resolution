@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<objective_function criterion="minimize">
+    <performance_index type="square_norm_velocities" weight="1.0" />
+</objective_function>

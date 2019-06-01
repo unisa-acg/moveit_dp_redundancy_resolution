@@ -1,0 +1,9 @@
+<library path="libdp_redundancy_resolution_capability">
+
+  <class name="move_group/MoveGroupDPRedundancyResolutionService" type="move_group::MoveGroupDPRedundancyResolutionService" base_class_type="move_group::MoveGroupCapability">
+    <description>
+      Computes optimal joint space trajectories for redundant robots and cooperating robotic systems
+    </description>  
+  </class>
+
+</library>

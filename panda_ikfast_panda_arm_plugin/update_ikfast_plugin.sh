@@ -1,0 +1,1 @@
+rosrun moveit_kinematics create_ikfast_moveit_plugin.py panda panda_arm panda_ikfast_panda_arm_plugin /home/eferrentino/ws_moveit/src/panda_ikfast_panda_arm_plugin/src/panda_panda_arm_ikfast_solver.cpp

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>moveit_dp_redundancy_resolution_msgs</name>
+  <version>0.0.1</version>
+  <description>The moveit_dp_redundancy_resolution_msgs package</description>
+
+  <maintainer email="eferrentino@unisa.it">Enrico Ferrentino</maintainer>
+
+  <license>BSD</license>
+
+  <author email="eferrentino@unisa.it">Enrico Ferrentino</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>moveit_msgs</build_export_depend>
+
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>moveit_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>

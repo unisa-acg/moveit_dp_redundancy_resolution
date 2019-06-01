@@ -1,0 +1,4 @@
+#trajectory_name: "pose_goal_trajectory"
+#trajectory_name: "cartesian_trajectory_long"
+#trajectory_name: "square_trajectory"
+trajectory_name: "loaded_trajectory"

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>fourr_kazerounian_controller</name>
+  <version>0.0.0</version>
+  <description>The fourr_kazerounian_controller package</description>
+
+  <maintainer email="eferrentino@unisa.it">Enrico Ferrentino</maintainer>
+
+  <license>BSD</license>
+
+  <author email="eferrentino@unisa.it">Enrico Ferrentino</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_visual_tools</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>moveit_dp_redundancy_resolution</build_depend>
+  
+  <build_export_depend>moveit_core</build_export_depend>
+  <build_export_depend>moveit_visual_tools</build_export_depend>
+  <build_export_depend>moveit_ros_planning_interface</build_export_depend>
+
+  <exec_depend>moveit_core</exec_depend>
+  <exec_depend>moveit_visual_tools</exec_depend>
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+</package>

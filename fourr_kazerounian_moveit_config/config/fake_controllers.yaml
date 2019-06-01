@@ -1,0 +1,12 @@
+controller_list:
+  - name: fake_fourr_planar_arm_controller
+    joints:
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+  - name: fake_q2_q3_q4_controller
+    joints:
+      - joint2
+      - joint3
+      - joint4

@@ -1,0 +1,8 @@
+<launch>
+
+  <rosparam file="$(find fourr_kazerounian_controller)/config/ws_trajectory_matlab.yaml" command="load"/>
+  
+  <node pkg="fourr_kazerounian_controller" type="fourr_kazerounian_controller_node" name="fourr_kazerounian_controller" output="screen">
+  </node>  
+
+</launch>

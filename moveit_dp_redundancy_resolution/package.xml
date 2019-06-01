@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>moveit_dp_redundancy_resolution</name>
+  <version>0.0.1</version>
+  <description>The MoveIt! plugin to perform redundancy resolution with dynamic programming</description>
+
+  <maintainer email="eferrentino@unisa.it">Enrico Ferrentino</maintainer>
+
+  <license>BSD</license>
+
+  <author email="eferrentino@unisa.it">Enrico Ferrentino</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospack</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_move_group</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>moveit_dp_redundancy_resolution_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospack</build_export_depend>
+  <build_export_depend>rosbag</build_export_depend>
+  <build_export_depend>moveit_core</build_export_depend>
+  <build_export_depend>moveit_ros_move_group</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>moveit_dp_redundancy_resolution_msgs</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospack</exec_depend>
+  <exec_depend>rosbag</exec_depend>
+  <exec_depend>moveit_core</exec_depend>
+  <exec_depend>moveit_ros_move_group</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>moveit_dp_redundancy_resolution_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <export>
+    <moveit_ros_move_group plugin="${prefix}/moveit_dp_redundancy_resolution_capability_plugin_description.xml"/>
+  </export>
+</package>
