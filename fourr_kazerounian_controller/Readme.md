@@ -34,5 +34,3 @@ These trajectories can be configured in the package launch file.
 * `ws_trajectory_matlab.yaml`: this is the trajectory exported from the MATLAB experiments. It is the one used with the optimal redundancy resolution and cannot be used for computing cartesian path through the default `MoveGroupCartesianPathService` capability because of the overlap between waypoints
 * `ws_trajectory.yaml`: this is a trajectory with meaningless timestamps, that can be used for computing cartesian paths through the `MoveGroupCartesianPathService` capability
 * `ws_trajectory_yaw_0.yaml`: same as above but with yaw=0.
-
-

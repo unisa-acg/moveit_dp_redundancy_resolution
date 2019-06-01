@@ -34,13 +34,9 @@ mkdir -p catkin_ws/src
 ```
 cd catkin_ws/src
 ```
-* Clone this repository and all the others on which it depends: 
+* Clone this repository 
 ```
-git clone https://github.com/unisa-acg/fourr_kazerounian_controller.git
-git clone https://github.com/unisa-acg/fourr_kazerounian_description.git
-git clone https://github.com/unisa-acg/fourr_kazerounian_moveit_config.git
 git clone https://github.com/unisa-acg/moveit_dp_redundancy_resolution.git
-git clone https://github.com/unisa-acg/moveit_dp_redundancy_resolution_msgs.git
 ```
 * To build the workspace run
 ```
