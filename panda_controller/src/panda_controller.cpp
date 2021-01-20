@@ -33,9 +33,9 @@
  * This module has been developed as part of a collaboration between
  * the Automatic Control Group @ UNISA and ALTEC.
  *
- * Title:	panda_controller.cpp 
- * Author:	Enrico Ferrentino
- * Org.: 	UNISA - Automatic Control Group
+ * Title:   panda_controller.cpp
+ * Author:  Enrico Ferrentino
+ * Org.:    UNISA - Automatic Control Group
  * Date:    Sep 6, 2018
  *
  * This file implements a ROS node to control the Panda manipulator
