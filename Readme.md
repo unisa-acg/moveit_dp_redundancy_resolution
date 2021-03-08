@@ -2,7 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/189755571.svg)](https://zenodo.org/badge/latestdoi/189755571)
 
-This repository is a collection of ROS packages needed to perform globally-optimal redundancy resolution for kinematically redundant robotic systems.
+This repository is a collection of ROS packages needed to perform globally-optimal redundancy resolution for kinematically redundant robotic systems. More information on the algorithm, designed modules and underlying methodology can be found at
+> Ferrentino, E.; Salvioli, F.; Chiacchio, P. Globally Optimal Redundancy Resolution with Dynamic Programming for Robot Planning: A ROS Implementation. Robotics 2021, 10, 42. <https://doi.org/10.3390/robotics10010042>
 
 The `moveit_dp_redundancy_resolution` and `moveit_dp_redundancy_resolution_msgs` packages contain the core libraries, while all the `fourr_kazerounian_*` and `panda_*` packages are support packages to run demos on a 4R planar robot and 7R spatial robot respectively.
 
